@@ -17,7 +17,7 @@ When the user loads the page, they should be given the option to create a new wo
 The user should be able to:
 
   * Add exercises to the most recent workout plan.
-
+  
   * Add new exercises to a new workout plan.
 
   * View the combined weight of multiple exercises from the past seven workouts on the `stats` page.
