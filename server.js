@@ -12,11 +12,11 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-const Excercise = require("./exerciseModel");
+const Exercise = require("./exerciseModel.js");
 require("./routes/html-routes.js")(app);
 require("./routes/api-routes.js")(app);
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/dbExercise", {useNewUrlParser: true, useFindAndModify: false });
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/dbExercise", {useNewUrlParser: true, useFindAndModify: true });
 
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
