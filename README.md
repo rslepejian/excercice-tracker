@@ -90,6 +90,6 @@ This code shows the api routes used to retrieve and send data to and from the da
 
 ## Contact Information
 
-- [Link to Portfolio Site](https://rslepejian.github.io/portfolio/)
+- [Link to Portfolio Site](https://rslepejian.github.io/updated-portfolio/)
 - [Link to Github](https://github.com/rslepejian)
 - [Link to LinkedIn](https://linkedin.com/in/raffi-lepejian-071876153)
